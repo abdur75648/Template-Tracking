@@ -10,7 +10,7 @@ This repo uses OpenCV to do template tracking using 3 different methods:
 2. ***Lucas Kanade Algorithm:*** This is one of the methods based on the optical flow measurement
 3. ***Pyramid based Lucas Kanade:*** This an improvement over the LKA using a multiscale Gaussian pyramid
 
-### Dataset Structure###
+### Dataset Structure ###
 The dataset consists of video sequences and their ground truth bounding boxes.
 
 Each datatset can be put in a folder (say dataset_name) inside this folder.
