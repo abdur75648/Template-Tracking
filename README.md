@@ -23,7 +23,12 @@ We've considered the ground truth for the first frame as the object template for
 
 ### Using This Repo ###
 1. Download & put the data folder inside the folder. Ensure the same format as described above
-2. Perform the template tracking using: ` python main.py -i datasetfolder -c X `
-3. Evaluate the performance using: ` python eval.py -i datasetfolder -c X`
+2. Perform the template tracking using any of the 4 methods using command:
 
-where i is the input dataset folder, and c is method to use ("ncc" & "ssd" for first, "lka" for second, and "pylka" for third method respectively) in the above commands
+` python script_name -i datasetfolder
+
+3. Evaluate the performance using:
+
+` python eval.py -i datasetfolder
+
+where i is the input dataset folder, and script_name can be any one of these: [block_matching_ncc.py](https://github.com/abdur75648/Template-Tracking/blob/main/block_matching_ncc.py), [block_matching_ssd.py.py](https://github.com/abdur75648/Template-Tracking/blob/main/block_matching_ssd.py), [lka.py](https://github.com/abdur75648/Template-Tracking/blob/main/lka.py) or [pylka.py](https://github.com/abdur75648/Template-Tracking/blob/main/pylka.py)
