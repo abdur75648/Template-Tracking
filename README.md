@@ -4,6 +4,9 @@
 
 Video tracking is the process of locating a moving object (or multiple objects) over time using a moving camera. This repo uses traditional non-learning-based object tracking techniques to track specific objects in the given test sequences. Such a system needs no prior training and even may not have seen an object prior to tracking.
 
+![image](https://user-images.githubusercontent.com/66300465/145829673-1285b5a5-a14c-4259-8f03-3974e32ebb9c.png)
+
+
 This repo uses OpenCV to do template tracking using 3 different methods:
 
 1. ***Block Matching Technique:*** This is an appearance based method. We've implemented this using 2 metrices: sum of squared distance (SSD) as well as normalised cross correlation (NCC)
